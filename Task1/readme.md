@@ -1,23 +1,23 @@
 ## Task 1 入门任务
 
 
-1.1安装NNI，尝试内置样例（e.g., mnist-pytorch）
+##1.1安装NNI
 
 
+使用了Anaconda环境工作 由于NNI需要依赖TensorFlow 故需使用pip另外安装
 
-使用了python3.7进行安装nni及TensorFlow
+python -m pip install --upgrade nni
 
-由于所使用的python的原因.需手动修改内置样例中python3为python才可正常运行
-
-
-
-1.2使用NNI，自行跑通程序
+python -m pip install tensorflow
 
 
+##1.2跑通程序
+
+[![SharedScreenshot.jpg](https://photo.mxpkx.com/images/2021/01/04/SharedScreenshot.jpg)](https://photo.mxpkx.com/image/NPfh)
+[![SharedScreenshot2.jpg](https://photo.mxpkx.com/images/2021/01/04/SharedScreenshot2.jpg)](https://photo.mxpkx.com/image/NLBA)
 
 
-
-1.3提交NNI集成的实验结果
+##1.3实验结果
 
 
 
